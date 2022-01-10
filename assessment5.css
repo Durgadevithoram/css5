@@ -1,0 +1,194 @@
+body{
+    background-color:limegreen;
+   /* padding:50%;*/
+}
+.head{
+    font-size: 40px;
+    text-align:center;
+    font-weight: 300px;
+    color:indigo;
+
+}
+.row1{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    position:relative;
+}
+.box1{
+    background-color: mediumslateblue ;
+    border:1px solid black;
+    transform: skewX(25deg);   
+    width:100px;
+    height:100px;
+    margin-left: 200px;
+    animation-name: box1;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-fill-mode: none;
+}
+@keyframes box1{
+    0%{
+        transform: skewX(25deg);
+    }
+    100%{
+        transform: skewX(-25deg);
+    }
+
+}
+.ol{
+    margin-left:150px;
+}
+.row2{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+.box2{
+    background-color: mediumvioletred ;
+    border:1px solid black;
+    transform: skewY(15deg);   
+    width:100px;
+    height:100px;
+    margin-left: 200px;
+    animation-name: box2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-fill-mode: none;
+}
+@keyframes box2{
+    0%{
+        transform: skewY(15deg);
+    }
+    100%{
+        transform: skewY(-15deg);
+    }
+
+}
+.ol{
+    margin-left:150px;
+}
+.row3{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+.box3{
+    background-color: mediumaquamarine;
+    border:1px solid black;
+    transform: rotate(360deg);   
+    width:100px;
+    height:100px;
+    margin-left: 200px;
+    animation-name: box3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+}
+@keyframes box3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.ol{
+    margin-left:150px;
+}
+.row4{
+    display: flex;
+    margin-left: 220px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+.box4_1{
+    background-color:mediumslateblue;
+    border:1px solid black;   
+    width:100px;
+    height:100px;
+    transform:scal(1,1);.
+    margin-left: 600px;
+    animation-name: box4_1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+}
+@keyframes box4_1{
+    0%{
+        transform:scale(1,1);
+    }
+    50%{
+        transform:scale(1,0.5);;
+    }
+    100%{
+        transform:scale(1,1)
+    }
+}
+.box4_2{
+    background-color:mediumvioletred;
+    border:1px solid black;   
+    width:100px;
+    height:100px;
+    transform:scal(1,1);
+    left:250px;
+    margin-left: 200px;
+    animation-name: box4_2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+}
+@keyframes box4_2{
+    0%{
+        transform:scale(1,1);
+    }
+    50%{
+        transform:scale(0.5,1);;
+    }
+    100%{
+        transform:scale(1,1)
+    }
+}
+.box4_3{
+    background-color:mediumaquamarine;
+    border:1px solid black;   
+    width:100px;
+    height:100px;
+    transform:scal(1,1);
+    left:250px;
+    margin-left: 200px;
+    animation-name: box4_3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+}
+@keyframes box4_3{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(180deg);;
+    }
+    100%{
+        transform:scale(360deg)
+    }
+}
+.let{
+    color:red;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-left: 400px;
+}

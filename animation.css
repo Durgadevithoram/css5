@@ -1,0 +1,145 @@
+body{
+    background-color:chocolate;
+   /* padding:50%;*/
+}
+.head{
+    font-size: 40px;
+    text-align:center;
+    font-weight: 300px;
+    color:indigo;
+
+}
+.grid-container{
+    display: grid;
+    width:40px;
+    margin-left: 400px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.grid-item{
+    display: flex;
+    margin:20px;
+}
+.ol{
+    margin-left: 400px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.grid1{
+    background-color: #972fdd;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+    width:10vw;
+    height: 100px;
+    transition: width 2s linear;
+
+}
+.grid1:hover{
+    /*transition-property:width ;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transform-origin: center;*/
+    width:300px;
+    border:2px solid black;
+}
+.grid2{
+    background-color: #972fdd;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+    width:10vw;
+    height: 100px;
+    transition: width 2s linear;
+
+}
+.grid2:hover{
+    width:300px;
+    height:300px;
+    border:2px solid black;
+}
+.grid3{
+    background-color: #972fdd;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+    width:10vw;
+    height: 100px;
+    transition: width 2s linear;
+    transition-timing-function: ease-in-out;
+
+}
+.grid3:hover{
+    width:300px;
+    border:2px solid black;
+}
+.grid4{
+    background-color: #972fdd;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+    width:10vw;
+    height: 100px;
+    transition: width 2s linear;
+    transition-timing-function: ease-in-out;
+
+}
+.grid4:hover{
+    width:300px;
+    border:2px solid black;
+}
+.grid5{
+    background-color: #972fdd;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+    width:10vw;
+    height: 100px;
+    transition: width 2s linear;
+
+}
+.grid5:hover{
+    width:300px;
+    border:2px solid black;
+}
+.grid6{
+    background-color:#972fdd;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+    width:10vw;
+    height: 100px;
+    transition: width 2s linear;
+    transition-timing-function: ease-in-out;
+
+}
+.grid6:hover{
+    width:300px;
+    border:2px solid black;
+}
+.grid7{
+    background-color: #972fdd;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+    width:10vw;
+    height: 100px;
+    transition: width 2s linear;
+    transition-timing-function: ease-in-out;
+
+}
+.grid7:hover{
+    width:300px;
+    border:2px solid black;
+}
+.back{
+    color:red;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.Next{
+
+    color:red;
+    font-size: 30px;
+    margin-left: 800px;
+}
